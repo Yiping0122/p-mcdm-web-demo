@@ -9,7 +9,7 @@
 > 
 > 面向可持续建筑材料选择的概率多准则决策分析工具
 
-🌐 **Live Demo** | 在线演示: https://zj7wbusagkqle.ok.kimi.link/
+🌐 **Live Demo** : https://zj7wbusagkqle.ok.kimi.link/
 
 ---
 
@@ -54,7 +54,7 @@ Includes method agreement analysis with Spearman correlation coefficients
 
 ### 📋 Scenarios & Priority Profiles 
 
-**Scenarios** | 场景:
+**Scenarios**:
 - Sustainability × Reported/Fossil-only GWP 
 - Circularity × Reported/Fossil-only GWP 
 
@@ -136,7 +136,6 @@ This project is configured for automatic deployment via GitHub Actions
 
 > **This demonstration uses mock data for interface display only.** All material scores, rankings, and statistical indicators are randomly generated demonstration data and do not represent actual calculation results.
 > 
-> **本演示使用模拟数据进行界面展示**。
 
 ### Core Algorithms 
 
@@ -155,7 +154,7 @@ The complete research codebase will be open-sourced after paper publication
 
 ### Citation 
 
-If you use or reference this work in your research, please cite 如果您在研究中使用或参考了本工作，请使用以下引用格式:
+If you use or reference this work in your research, please cite:
 
 ```bibtex
 @article{pmcdm2025,
