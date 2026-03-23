@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "P-MCDM: Probabilistic Multi-Criteria Decision Making for Sustainable Building Material Selection"
+abstract: "A web-based prototype for probabilistic multi-criteria decision making in sustainable building material selection, featuring interactive visualization and comparison of MCDM methods (MIVES, TOPSIS, VIKOR)."
+authors:
+  - family-names: "[Your Last Name]"
+    given-names: "[Your First Name]"
+    orcid: "[Your ORCID]"
+repository-code: "https://github.com/YOUR_USERNAME/p-mcdm-web-demo"
+url: "https://YOUR_USERNAME.github.io/p-mcdm-web-demo/"
+date-released: 2026-03-23
+version: "1.0.0"
+license: "CC-BY-NC-ND-4.0"
+keywords:
+  - "multi-criteria decision making"
+  - "MCDM"
+  - "sustainable construction"
+  - "building materials"
+  - "probabilistic analysis"
+  - "LHS sampling"
+  - "MIVES"
+  - "TOPSIS"
+  - "VIKOR"
+preferred-citation:
+  type: article
+  title: "[Your Paper Title]"
+  authors:
+    - family-names: "[Your Last Name]"
+      given-names: "[Your First Name]"
+  journal: "[Journal Name]"
+  year: 2026
+  volume: "[Volume]"
+  issue: "[Issue]"
+  pages: "[Pages]"
+  doi: "[DOI]"

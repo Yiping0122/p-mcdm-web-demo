@@ -1,0 +1,151 @@
+/* P-MCDM Material Selector - Custom Styles */
+
+/* Ensure proper layout */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Ensure content is scrollable */
+.scroll-container {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Slider styling */
+[data-slot="slider-track"] {
+  background: #e5e5e5;
+}
+
+[data-slot="slider-range"] {
+  background: #1565c0;
+}
+
+[data-slot="slider-thumb"] {
+  background: #1565c0;
+  border: 2px solid white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+/* Table styling enhancements */
+table {
+  border-collapse: collapse;
+}
+
+/* Card enhancements */
+.card {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Tab styling */
+[data-state="active"][role="tab"] {
+  background: white;
+  border-bottom: 2px solid #1565c0;
+  font-weight: 500;
+}
+
+/* Radio group styling */
+[role="radio"] {
+  border-color: #ccc;
+}
+
+[role="radio"][data-state="checked"] {
+  border-color: #1565c0;
+  background: #1565c0;
+}
+
+/* Select styling */
+[data-slot="select-trigger"] {
+  border-color: #d1d5db;
+}
+
+[data-slot="select-trigger"]:focus {
+  border-color: #1565c0;
+  ring: 2px solid rgba(21, 101, 192, 0.2);
+}
+
+/* Input styling */
+input[type="number"] {
+  border-color: #d1d5db;
+}
+
+input[type="number"]:focus {
+  border-color: #1565c0;
+  outline: none;
+}
+
+/* Button hover effects */
+button:hover {
+  transition: all 0.2s ease;
+}
+
+/* Tooltip styling */
+.recharts-tooltip-wrapper {
+  z-index: 1000;
+}
+
+/* Chart container */
+.recharts-wrapper {
+  font-size: 11px;
+}
+
+/* Badge styling */
+[data-slot="badge"] {
+  font-size: 9px;
+  padding: 1px 6px;
+}
+
+/* Details/Summary styling */
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::before {
+  content: '▶';
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 8px;
+  transition: transform 0.2s;
+}
+
+details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 220px;
+    min-width: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
