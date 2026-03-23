@@ -138,7 +138,7 @@ This project is configured for automatic deployment via GitHub Actions
 > 
 > **本演示使用模拟数据进行界面展示**。
 
-### Core Algorithms | 核心算法
+### Core Algorithms 
 
 This repository contains frontend code only 
 
@@ -185,7 +185,7 @@ You are free to:
 - ✅ **Share** — copy and redistribute the material in any medium or format 
 - ✅ **Attribute** — You must give appropriate credit 
 
-Under the following terms 但须遵守以下条件:
+Under the following terms:
 - ❌ **NonCommercial** — You may not use the material for commercial purposes 
 - ❌ **NoDerivatives** — You may not modify or transform the material 
 
